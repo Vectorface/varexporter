@@ -20,7 +20,7 @@ class SerializeMagicMethods
         ];
     }
 
-    public function __unserialize(array $array) : void
+    public function __unserialize(array $array)
     {
         $this->foo = $array['foo'];
         $this->bar = $array['bar'];

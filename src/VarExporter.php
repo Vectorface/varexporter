@@ -12,46 +12,46 @@ final class VarExporter
      * Prepends the output with `return ` and append a semicolon and a newline.
      * This makes the code ready to be executed in a PHP file―or `eval()`, for that matter.
      */
-    public const ADD_RETURN = 1 << 0;
+    const ADD_RETURN = 1 << 0;
 
     /**
      * Adds type hints to objects created through reflection, and to `$this` inside closures bound to an object.
      * This allows the resulting code to be statically analyzed by external tools and IDEs.
      */
-    public const ADD_TYPE_HINTS = 1 << 1;
+    const ADD_TYPE_HINTS = 1 << 1;
 
     /**
      * Skips dynamic properties on custom classes in the output. By default, any dynamic property set on a custom class
      * is exported; if this flag is set, dynamic properties are only allowed on stdClass objects, and ignored on other
      * objects.
      */
-    public const SKIP_DYNAMIC_PROPERTIES = 1 << 2;
+    const SKIP_DYNAMIC_PROPERTIES = 1 << 2;
 
     /**
      * Disallows exporting objects through `__set_state()`.
      */
-    public const NO_SET_STATE = 1 << 3;
+    const NO_SET_STATE = 1 << 3;
 
     /**
      * Disallows exporting objects through `__serialize()` and `__unserialize()`.
      */
-    public const NO_SERIALIZE = 1 << 4;
+    const NO_SERIALIZE = 1 << 4;
 
     /**
      * Disallows exporting plain objects using direct property access.
      */
-    public const NOT_ANY_OBJECT = 1 << 5;
+    const NOT_ANY_OBJECT = 1 << 5;
 
     /**
      * Disallows exporting closures.
      */
-    public const NO_CLOSURES = 1 << 6;
+    const NO_CLOSURES = 1 << 6;
 
     /**
      * Formats numeric arrays containing only scalar values on a single line.
      * Types considered scalar here are int, bool, float, string and null.
      */
-    public const INLINE_NUMERIC_SCALAR_ARRAY = 1 << 7;
+    const INLINE_NUMERIC_SCALAR_ARRAY = 1 << 7;
 
     /**
      * @param mixed $var     The variable to export.
