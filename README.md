@@ -42,7 +42,7 @@ composer require vectorface/varexporter-legacy
 
 ### Requirements
 
-This library requires PHP 7.1 or later.
+This library requires PHP 7.0 or later.
 
 ### Project status & release process
 
