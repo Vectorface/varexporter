@@ -1,12 +1,12 @@
-# francislavoie\VarExporter
+# Vectorface\VarExporter
 
 <img src="https://raw.githubusercontent.com/brick/brick/master/logo.png" alt="" align="left" height="64">
 
 A powerful and pretty replacement for PHP's `var_export()`.
 
-[![Build Status](https://secure.travis-ci.org/brick/varexporter.svg?branch=master)](http://travis-ci.org/francislavoie/varexporter)
-[![Coverage Status](https://coveralls.io/repos/brick/varexporter/badge.svg?branch=master)](https://coveralls.io/r/francislavoie/varexporter?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/brick/varexporter/v/stable)](https://packagist.org/packages/francislavoie/varexporter)
+[![Build Status](https://secure.travis-ci.org/brick/varexporter.svg?branch=master)](http://travis-ci.org/vectorface/varexporter)
+[![Coverage Status](https://coveralls.io/repos/brick/varexporter/badge.svg?branch=master)](https://coveralls.io/r/vectorface/varexporter?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/brick/varexporter/v/stable)](https://packagist.org/packages/vectorface/varexporter)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 ## Note
@@ -37,7 +37,7 @@ This library aims to provide a prettier, safer, and powerful alternative to `var
 This library is installable via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require francislavoie/varexporter
+composer require vectorface/varexporter
 ```
 
 ### Requirements
@@ -54,7 +54,7 @@ The current releases are numbered `0.x.y`. When a non-breaking change is introdu
 
 It is therefore safe to lock your project to a given release cycle, such as `0.2.*`.
 
-If you need to upgrade to a newer release cycle, check the [release history](https://github.com/francislavoie/varexporter/releases) for a list of changes introduced by each further `0.x.0` version.
+If you need to upgrade to a newer release cycle, check the [release history](https://github.com/vectorface/varexporter/releases) for a list of changes introduced by each further `0.x.0` version.
 
 ## Quickstart
 
