@@ -37,7 +37,7 @@ This library aims to provide a prettier, safer, and powerful alternative to `var
 This library is installable via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require vectorface/varexporter
+composer require vectorface/varexporter-legacy
 ```
 
 ### Requirements
