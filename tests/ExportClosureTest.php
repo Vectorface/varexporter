@@ -40,7 +40,7 @@ PHP;
         $var = [
             (object) [
                 'callback' => function() {
-                    return function (PublicPropertiesOnly $a, int $b, string & $c, string ...$d) : ?string {
+                    return function (PublicPropertiesOnly $a, int $b, string & $c, string ...$d) {
                         $a->foo += $b;
                         $c = $a->bar;
                         $a->bar = implode('', $d);
@@ -61,7 +61,7 @@ PHP;
 [
     (object) [
         'callback' => function () {
-            return function (\Brick\VarExporter\Tests\Classes\PublicPropertiesOnly $a, int $b, string &$c, string ...$d) : ?string {
+            return function (\Brick\VarExporter\Tests\Classes\PublicPropertiesOnly $a, int $b, string &$c, string ...$d) {
                 $a->foo += $b;
                 $c = $a->bar;
                 $a->bar = implode('', $d);
